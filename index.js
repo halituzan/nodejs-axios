@@ -43,7 +43,7 @@ const countBreeds = async () => {
 
 
     let sqlSorgusu = 'INSERT INTO coins VALUES(NULL, ?, ?, ?, ?, ?);';
-    let veri = ["+symbol+",'bidPrice','bidQty','askPrice','askQty'];
+    let veri = ["symbol",'bidPrice','bidQty','askPrice','askQty'];
 
     connection.connect();
     (function (err) {
